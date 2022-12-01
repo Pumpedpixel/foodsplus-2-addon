@@ -1,0 +1,744 @@
+{
+  "tiers": [
+    {
+      "groups": [
+        {
+          "num_to_select": 5,
+          "trades": [
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:cherry_sapling_item",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:lemon_sapling_item",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:mango_sapling_item",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:peach_sapling_item",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:orange_sapling_item",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:ghostpepper_seeds",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:jalapeno_seeds",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:bananapepper_seeds",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:habanero_seeds",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:tea_seeds",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:soul_sapling_item",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:vanilla_seeds",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:cinnamon_sapling_item",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:marsh_seeds",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:lavalilly_seeds",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:netherberries_seeds",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:palm_sapling_item",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				}, //line 2
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:barley_seeds",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:rice_seeds",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:soybean_seeds",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:broccoli_seeds",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:sugerbeet_seeds",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				}, //line 3
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:rye_seeds",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:oat_seeds",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:canola_seeds",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:rhubarb_seeds",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:sorghum_seeds",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				}, //line 4
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:tomato_seeds",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:oat_seeds",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:canola_seeds",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:rhubarb_seeds",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:sorghum_seeds",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				}, //line 5
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:onion_seeds",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:pineapple_seeds",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:spelt_seeds",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:cabbage_seeds",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:buckwheat_seeds",
+							"quantity": 2
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				}, //end line 4
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:strawberrie_seeds",
+							"quantity": 6
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:turnip_seeds",
+							"quantity": 6
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:lettuce_seeds",
+							"quantity": 6
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:blueberrie_seeds",
+							"quantity": 6
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:grape_seeds",
+							"quantity": 6
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:blackberrie_seeds",
+							"quantity": 6
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				}
+			  ]
+		    }
+		  ]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "crafting:glowberrypie"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#G#",
+            "WWW"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:sugar"
+            },
+            "G": {
+                "item": "minecraft:glow_berries"
+            },
+            "W": {
+                "item": "minecraft:wheat"
+            }
+        },
+        "result": {
+            "item": "foodsplus2:glow_berry_pie",
+            "count": 1
+        }
+    }
+}

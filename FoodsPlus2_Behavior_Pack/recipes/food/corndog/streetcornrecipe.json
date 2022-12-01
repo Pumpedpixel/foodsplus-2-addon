@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "crafting:streetcornrecipe"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " O ",
+            " # ",
+            "X X"
+        ],
+        "key": {
+            "#": {
+                "item": "foodsplus2:corn"
+            },
+            "O": {
+                "item": "foodsplus2:onion"
+            },
+            "X": {
+                "item": "foodsplus2:rice"
+            }
+        },
+        "result": {
+            "item": "foodsplus2:streetcorn",
+            "count": 1
+        }
+    }
+}

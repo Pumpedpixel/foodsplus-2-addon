@@ -1,0 +1,25 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "foodsplus2:fermentedbarley",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:use_duration": 2,
+			"minecraft:use_animation": "eat",
+			"minecraft:creative_category": {
+				"category": "items"
+			},
+			"minecraft:icon": {
+				"texture": "fermentedbarley"
+			},
+			"minecraft:food": {
+				"nutrition": 2,
+				"saturation_modifier": "normal",
+				"can_always_eat": false
+			}
+		},
+		"events": {}
+	}
+}

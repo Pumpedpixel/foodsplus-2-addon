@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "presser:soulfruit"
+    },
+
+    
+    "tags": [ "presser" ],
+    "pattern": [
+      "C  ",
+      "   ",
+      "   "
+    ],
+    "key": {
+      "C": {
+        "item": "foodsplus2:soulfruit" //middle
+      }
+    },
+    "result": {
+      "item": "foodsplus2:soulfruitjuice",
+	  "count": 1
+    }
+  }
+}

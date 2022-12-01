@@ -1,0 +1,25 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "foodsplus2:magmaflower",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:use_duration": 0.8,
+			"minecraft:use_animation": "eat",
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.crop"
+			},
+			"minecraft:icon": {
+				"texture": "magmaflower"
+			},
+			"minecraft:food": {
+				"nutrition": 8,
+				"saturation_modifier": "normal",
+				"can_always_eat": false
+			}
+		},
+		"events": {}
+	}
+}

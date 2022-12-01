@@ -1,0 +1,37 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "crafting:strawberrypie"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###",
+            "EMS",
+            "WWW"
+        ],
+        "key": {
+            "#": {
+                "item": "foodsplus2:strawberries"
+            },
+            "E": {
+                "item": "minecraft:egg"
+            },
+            "M": {
+                "item": "minecraft:milk_bucket"
+            },
+            "S": {
+                "item": "minecraft:sugar"
+            },
+            "W": {
+                "item": "minecraft:wheat"
+            }
+        },
+        "result": {
+            "item": "foodsplus2:strawberry_pie_item",
+            "count": 1
+        }
+    }
+}

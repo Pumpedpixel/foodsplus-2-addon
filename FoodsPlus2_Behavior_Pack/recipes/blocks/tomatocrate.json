@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "crafting:tomatocrate"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###",
+            "_#_",
+            "PPP"
+        ],
+        "key": {
+            "#": {
+                "item": "foodsplus2:tomato"
+            },
+            "_": {
+                "item": "minecraft:wooden_slab"
+            },
+            "P": {
+                "item": "minecraft:planks"
+            }
+        },
+        "result": {
+            "item": "foodsplus2:tomatocrate",
+            "count": 1
+        }
+    }
+}

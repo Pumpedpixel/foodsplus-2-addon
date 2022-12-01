@@ -1,0 +1,29 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "crafting:hotchocolaterecipe"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#Sd"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:cocoa_beans"
+        },
+		        "d": {
+                "item": "foodsplus2:marshmellow"
+        },
+		        "S": {
+                "item": "minecraft:sugar"
+				}
+        },
+        "result": {
+            "item": "foodsplus2:hotchocolate",
+            "count": 1
+        }
+    }
+}

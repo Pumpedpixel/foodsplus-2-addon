@@ -1,0 +1,29 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "crafting:lemonaidrecipe"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#Sd"
+        ],
+        "key": {
+            "#": {
+                "item": "foodsplus2:lemon"
+        },
+		        "d": {
+                "item": "minecraft:ice"
+        },
+		        "S": {
+                "item": "minecraft:sugar"
+				}
+        },
+        "result": {
+            "item": "foodsplus2:lemonaid",
+            "count": 1
+        }
+    }
+}

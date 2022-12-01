@@ -1,0 +1,567 @@
+{
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"egg_camel": {
+			"textures": "textures/items/egg_camel"
+		},
+		"apple_pie": {
+			"textures": "textures/items/pie/applepie"
+		},
+		"rice": {
+			"textures": "textures/items/fruitandveggie/rice"
+		},
+		"ginger": {
+			"textures": "textures/items/fruitandveggie/ginger"
+		},
+		"gingerseeds": {
+			"textures": "textures/items/seeds/gingerseeds"
+		},
+		"gingerale": {
+			"textures": "textures/items/product/gingerale"
+		},
+		"streetcorn": {
+			"textures": "textures/items/misc/streetcorn"
+		},
+		"queso": {
+			"textures": "textures/items/misc/queso"
+		},
+		"breakfestbowel": {
+			"textures": "textures/items/misc/breakfestbowel"
+		},
+		"rawsalt": {
+			"textures": "textures/items/product/salt"
+		},
+		"biscut": {
+			"textures": "textures/items/misc/biscut"
+		},
+		"burrito": {
+			"textures": "textures/items/misc/burrito"
+		},
+		"taco": {
+			"textures": "textures/items/misc/taco"
+		},
+		"quesadilla": {
+			"textures": "textures/items/misc/quesadilla"
+		},
+		"fajita": {
+			"textures": "textures/items/misc/fajita"
+		},
+		"tortilla": {
+			"textures": "textures/items/misc/tortilla"
+		},
+		"friedcorn": {
+			"textures": "textures/items/misc/friedcorn"
+		},
+		"enchilada": {
+			"textures": "textures/items/misc/enchilada"
+		},
+		"tea": {
+			"textures": "textures/items/fruitandveggie/tea"
+		},
+		"dough": {
+			"textures": "textures/items/product/dough"
+		},
+		"flour": {
+			"textures": "textures/items/pastry/flour"
+		},
+		"applecider": {
+			"textures": "textures/items/product/applecider"
+		},
+		"blueberrybubbletea": {
+			"textures": "textures/items/product/blueberrybubbletea"
+		},
+		"watermelonbubbletea": {
+			"textures": "textures/items/product/watermelonbubbletea"
+		},
+		"cherrybubbletea": {
+			"textures": "textures/items/product/cherrybubbletea"
+		},
+		"mangosmoothie": {
+			"textures": "textures/items/product/mangosmoothie"
+		},
+		"peachsmoothie": {
+			"textures": "textures/items/product/peachsmoothie"
+		},
+		"hotchocolate": {
+			"textures": "textures/items/product/hotchocolate"
+		},
+		"lemonaid": {
+			"textures": "textures/items/product/lemonaid"
+		},
+		"strawberrytoastertreat": {
+			"textures": "textures/items/pastry/strawberrytoastertreat"
+		},
+		"blueberrytoastertreat": {
+			"textures": "textures/items/pastry/blueberrytoastertreat"
+		},
+		"mapletoastertreat": {
+			"textures": "textures/items/pastry/mapletoastertreat"
+		},
+		"cinnamontoastertreat": {
+			"textures": "textures/items/pastry/cinnamontoastertreat"
+		},
+		"marshmellowtoastertreat": {
+			"textures": "textures/items/pastry/marshmellowtoastertreat"
+		},
+		"cherrytoastertreat": {
+			"textures": "textures/items/pastry/cherrytoastertreat"
+		},
+		"fermentedbarley": {
+			"textures": "textures/items/product/fermentedbarley"
+		},
+		"pineapplejuice": {
+			"textures": "textures/items/product/pineapplejuice"
+		},
+		"grapejuice": {
+			"textures": "textures/items/product/grapejuice"
+		},
+		"orangejuice": {
+			"textures": "textures/items/product/orangejuice"
+		},
+		"mangojuice": {
+			"textures": "textures/items/product/mangojuice"
+		},
+		"cookingoil": {
+			"textures": "textures/items/product/cookingoil"
+		},
+		"oatcereal": {
+			"textures": "textures/items/soup/oatcereal"
+		},
+		"marshmellowcereal": {
+			"textures": "textures/items/soup/marshmellowcereal"
+		},
+		"wine": {
+			"textures": "textures/items/product/wine"
+		},
+		"rootbear": {
+			"textures": "textures/items/product/rootbear"
+		},
+		"salsa": {
+			"textures": "textures/items/soup/salsa"
+		},
+		"soulfruitjuice": {
+			"textures": "textures/items/product/soulfruitjuice"
+		},
+		"rawmarshmellow": {
+			"textures": "textures/items/fruitandveggie/rawmarshmellow"
+		},
+		"bananapepper": {
+			"textures": "textures/items/fruitandveggie/bananapepper"
+		},
+		"bananapepper": {
+			"textures": "textures/items/fruitandveggie/bananapepper"
+		},
+		"bananapepperseeds": {
+			"textures": "textures/items/seeds/bananapepperseeds"
+		},
+		"tea_seeds": {
+			"textures": "textures/items/seeds/teaseeds"
+		},
+		"ghostpepper": {
+			"textures": "textures/items/fruitandveggie/ghostpepper"
+		},
+		"ghostpepperseeds": {
+			"textures": "textures/items/seeds/ghostpepperseeds"
+		},
+		"habanero": {
+			"textures": "textures/items/fruitandveggie/habanero"
+		},
+		"habaneroseeds": {
+			"textures": "textures/items/seeds/habaneroseeds"
+		},
+		"jalapeno": {
+			"textures": "textures/items/fruitandveggie/jalapeno"
+		},
+		"jalapenoseeds": {
+			"textures": "textures/items/seeds/jalapenoseeds"
+		},
+		"marshseeds": {
+			"textures": "textures/items/seeds/marshseeds"
+		},
+		"marshmellow": {
+			"textures": "textures/items/pastry/marshmellow"
+		},
+		"chocolatecake": {
+			"textures": "textures/items/bake/chocolate_cake"
+		},
+		"maplecake": {
+			"textures": "textures/items/bake/maple_cake"
+		},
+		"carrotcake": {
+			"textures": "textures/items/bake/carrot_cake"
+		},
+		"marshmellowcake": {
+			"textures": "textures/items/bake/marshmellow_cake"
+		},
+		"birthdaycake": {
+			"textures": "textures/items/bake/birthday_cake"
+		},
+		"rhubarbcake": {
+			"textures": "textures/items/bake/rhubarb_cake"
+		},
+		"grapecake": {
+			"textures": "textures/items/bake/grape_cake"
+		},
+		"strawberrypie": {
+			"textures": "textures/items/bake/strawberry_pie"
+		},
+		"blueberrycake": {
+			"textures": "textures/items/bake/blueberry_cake"
+		},
+		"doublefudgecake": {
+			"textures": "textures/items/bake/doublefudge_cake"
+		},
+		"strawberrycake": {
+			"textures": "textures/items/bake/strawberry_cake"
+		},
+		"barley": {
+			"textures": "textures/items/fruitandveggie/barley"
+		},
+		"oat": {
+			"textures": "textures/items/fruitandveggie/oat"
+		},
+		"beans": {
+			"textures": "textures/items/fruitandveggie/beans"
+		},
+		"bakedbeans": {
+			"textures": "textures/items/soup/bakedbeans"
+		},
+		"corn": {
+			"textures": "textures/items/fruitandveggie/corn"
+		},
+		"onion": {
+			"textures": "textures/items/fruitandveggie/onion"
+		},
+		"rye": {
+			"textures": "textures/items/fruitandveggie/rye"
+		},
+		"soybean": {
+			"textures": "textures/items/fruitandveggie/soybean"
+		},
+		"pineapple": {
+			"textures": "textures/items/fruitandveggie/pineapple"
+		},
+		"sugerbeet": {
+			"textures": "textures/items/fruitandveggie/sugerbeet"
+		},
+		"canola": {
+			"textures": "textures/items/fruitandveggie/canola"
+		},
+		"spelt": {
+			"textures": "textures/items/fruitandveggie/spelt"
+		},
+		"cabbage": {
+			"textures": "textures/items/fruitandveggie/cabbage"
+		},
+		"rhubarb": {
+			"textures": "textures/items/fruitandveggie/rhubarb"
+		},
+		"buckwheat": {
+			"textures": "textures/items/fruitandveggie/buckwheat"
+		},
+		"sorghum": {
+			"textures": "textures/items/fruitandveggie/sorghum"
+		},
+		"broccoli": {
+			"textures": "textures/items/fruitandveggie/broccoli"
+		},
+		"oatbar": {
+			"textures": "textures/items/product/oatbar"
+		},
+		"steamedbroccoli": {
+			"textures": "textures/items/product/steamedbroccoli"
+		},
+		"guardianfinsoup": {
+			"textures": "textures/items/soup/guardianfinsoup"
+		},
+		"tomato": {
+			"textures": "textures/items/fruitandveggie/tomato"
+		},
+		"oatmeal": {
+			"textures": "textures/items/soup/oatmeal"
+		},
+		"riceseeds": {
+			"textures": "textures/items/seeds/riceseeds"
+		},
+		"ryeseeds": {
+			"textures": "textures/items/seeds/ryeseeds"
+		},
+		"tomatoseeds": {
+			"textures": "textures/items/seeds/tomatoseeds"
+		},
+		"rhubarbseeds": {
+			"textures": "textures/items/seeds/rhubarbseeds"
+		},
+		"broccoliseeds": {
+			"textures": "textures/items/seeds/broccoliseeds"
+		},
+		"speltseeds": {
+			"textures": "textures/items/seeds/speltseeds"
+		},
+		"cabbageseeds": {
+			"textures": "textures/items/seeds/cabbageseeds"
+		},
+		"sugerbeetseeds": {
+			"textures": "textures/items/seeds/sugerbeetseeds"
+		},
+		"onionseeds": {
+			"textures": "textures/items/seeds/onionseeds"
+		},
+		"soybeanseeds": {
+			"textures": "textures/items/seeds/soybeanseeds"
+		},
+		"sorghumseeds": {
+			"textures": "textures/items/seeds/sorghumseeds"
+		},
+		"canolaseeds": {
+			"textures": "textures/items/seeds/canolaseeds"
+		},
+		"buckwheatseeds": {
+			"textures": "textures/items/seeds/buckwheatseeds"
+		},
+		"oatseeds": {
+			"textures": "textures/items/seeds/oatseeds"
+		},
+		"cornseeds": {
+			"textures": "textures/items/seeds/cornseeds"
+		},
+		"beansseeds": {
+			"textures": "textures/items/seeds/beansseeds"
+		},
+		"pineappleseeds": {
+			"textures": "textures/items/seeds/pineappleseeds"
+		},
+		"barleyseeds": {
+			"textures": "textures/items/seeds/barleyseeds"
+		},
+		"netherwartstew": {
+			"textures": "textures/items/soup/netherwartstew"
+		},
+		"glow_berry_pie": {
+			"textures": "textures/items/pie/glowberrypie"
+		},
+		"glow_berry_pie2": {
+			"textures": "textures/items/pie/glowberrypie2"
+		},
+		"crablegs": {
+			"textures": "textures/items/seafood/crablegs"
+		},
+		"crablegs2": {
+			"textures": "textures/items/seafood/crablegs2"
+		},
+		"netherberrie_seeds": {
+			"textures": "textures/items/seeds/netherberrieseeds"
+		},
+		"netherberries": {
+			"textures": "textures/items/fruitandveggie/netherberries"
+		},
+		"magmaflower": {
+			"textures": "textures/items/fruitandveggie/magmaflower"
+		},
+		"lavalilly_seeds": {
+			"textures": "textures/items/seeds/lavalillyseeds"
+		},
+		"fishkabob": {
+			"textures": "textures/items/kabob/fishkabob"
+		},
+		"fishkabob2": {
+			"textures": "textures/items/kabob/fishkabob2"
+		},
+		"cherry_seeds": {
+			"textures": "textures/items/seeds/cherryseeds"
+		},
+		"orange_seeds": {
+			"textures": "textures/items/seeds/orangeseeds"
+		},
+		"mango_seeds": {
+			"textures": "textures/items/seeds/mangoseeds"
+		},
+		"peach_seeds": {
+			"textures": "textures/items/seeds/peachseeds"
+		},
+		"peach": {
+			"textures": "textures/items/fruitandveggie/peach"
+		},
+		"lemon_seeds": {
+			"textures": "textures/items/seeds/lemonseeds"
+		},
+		"lemon": {
+			"textures": "textures/items/fruitandveggie/lemon"
+		},
+		"orange": {
+			"textures": "textures/items/fruitandveggie/orange"
+		},
+		"cherry": {
+			"textures": "textures/items/fruitandveggie/cherry"
+		},
+		"friedapple": {
+			"textures": "textures/items/friedapple/friedapple"
+		},
+		"impie": {
+			"textures": "textures/items/pie/impie"
+		},
+		"smores": {
+			"textures": "textures/items/smores/smores"
+		},
+		"smores2": {
+			"textures": "textures/items/smores/smores2"
+		},
+		"hortchata": {
+			"textures": "textures/items/hortchata/hortchata"
+		},
+		"croquemonsieur": {
+			"textures": "textures/items/sandwhich/croquemonsieur"
+		},
+		"kouignamann": {
+			"textures": "textures/items/pastry/kouignamann"
+		},
+		"frenchnapoleon": {
+			"textures": "textures/items/pastry/frenchnapoleon"
+		},
+		"affogato": {
+			"textures": "textures/items/coffee/affogato"
+		},
+		"grape": {
+			"textures": "textures/items/fruitandveggie/grape"
+		},
+		"blueberries": {
+			"textures": "textures/items/fruitandveggie/blueberries"
+		},
+		"strawberries": {
+			"textures": "textures/items/fruitandveggie/strawberries"
+		},
+		"blackberries": {
+			"textures": "textures/items/fruitandveggie/blackberries"
+		},
+		"blackberrie_seeds": {
+			"textures": "textures/items/seeds/blackberrieseeds"
+		},
+		"maple_sapling": {
+			"textures": "textures/items/trees/maple_sapling"
+		},
+		"lemon_sapling": {
+			"textures": "textures/items/trees/lemon_sapling"
+		},
+		"peach_sapling": {
+			"textures": "textures/items/trees/peach_sapling"
+		},
+		"mango_sapling": {
+			"textures": "textures/items/trees/mango_sapling"
+		},
+		"orange_sapling": {
+			"textures": "textures/items/trees/orange_sapling"
+		},
+		"cherry_sapling": {
+			"textures": "textures/items/trees/cherry_sapling"
+		},
+		"cinnamon_sapling": {
+			"textures": "textures/items/trees/cinnamon_sapling"
+		},
+		"cinnamon": {
+			"textures": "textures/items/fruitandveggie/cinnamon"
+		},
+		"mango": {
+			"textures": "textures/items/fruitandveggie/mango"
+		},
+		"vanilla": {
+			"textures": "textures/items/fruitandveggie/vanilla"
+		},
+		"vanillaseeds": {
+			"textures": "textures/items/seeds/vanillaseeds"
+		},
+		"mangoseeds": {
+			"textures": "textures/items/seeds/mangoseeds"
+		},
+		"italianbread": {
+			"textures": "textures/items/pastry/italianbread"
+		},
+		"ryebread": {
+			"textures": "textures/items/pastry/ryebread"
+		},
+		"speltbread": {
+			"textures": "textures/items/pastry/speltbread"
+		},
+		"buckwheatbread": {
+			"textures": "textures/items/pastry/buckwheatbread"
+		},
+		"canolaoil": {
+			"textures": "textures/items/product/canolaoil"
+		},
+		"oatcookie": {
+			"textures": "textures/items/pastry/oatcookie"
+		},
+		"cinnamoncookie": {
+			"textures": "textures/items/pastry/cinnamoncookie"
+		},
+		"sunfloweroil": {
+			"textures": "textures/items/product/sunfloweroil"
+		},
+		"marshmellowcookie": {
+			"textures": "textures/items/pastry/marshmellowcookie"
+		},
+		"palm_sapling": {
+			"textures": "textures/items/trees/palm_sapling"
+		},
+		"soul_sapling": {
+			"textures": "textures/items/trees/soul_sapling"
+		},
+		"crabstew": {
+			"textures": "textures/items/soup/crabstew"
+		},
+		"netherberriepie": {
+			"textures": "textures/items/pie/netherberriepie"
+		},
+		"netherberriepie2": {
+			"textures": "textures/items/pie/netherberriepie2"
+		},
+		"turnip_seeds": {
+			"textures": "textures/items/seeds/turnipseeds"
+		},
+		"grape_seeds": {
+			"textures": "textures/items/seeds/grapeseeds"
+		},
+		"turnip": {
+			"textures": "textures/items/fruitandveggie/turnip"
+		},
+		"blueberrie_seeds": {
+			"textures": "textures/items/seeds/blueberrieseeds"
+		},
+		"strawberrie_seeds": {
+			"textures": "textures/items/seeds/strawberrieseeds"
+		},
+		"lettuce_seeds": {
+			"textures": "textures/items/seeds/lettuceseeds"
+		},
+		"lettuce": {
+			"textures": "textures/items/fruitandveggie/lettuce"
+		},
+		"coconut": {
+			"textures": "textures/items/fruitandveggie/coconut"
+		},
+		"soulfruit": {
+			"textures": "textures/items/fruitandveggie/soulfruit"
+		},
+		"soulfruitseeds": {
+			"textures": "textures/items/seeds/soulfruitseeds"
+		},
+		"coconut_seeds": {
+			"textures": "textures/items/seeds/coconutseeds"
+		},
+		"corndog": {
+			"textures": "textures/items/corndog/corndog"
+		},
+		"maplesyrup": {
+			"textures": "textures/items/syrup/maplesyrup"
+		},
+		"friedchicken": {
+			"textures": "textures/items/friedchicken/friedchicken"
+		},
+		"friedchicken2": {
+			"textures": "textures/items/friedchicken/friedchicken2"
+		},
+		"apple_pie2": {
+			"textures": "textures/items/pie/applepie2"
+		}
+	}
+}

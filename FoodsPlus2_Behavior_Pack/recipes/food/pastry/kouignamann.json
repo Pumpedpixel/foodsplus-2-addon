@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "crafting:kouignamann"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "# #",
+            "WEW",
+            " # "
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:sugar"
+            },
+            "W": {
+                "item": "minecraft:wheat"
+            },
+            "E": {
+                "item": "minecraft:egg"
+            }
+        },
+        "result": {
+            "item": "foodsplus2:kouignamann",
+            "count": 1
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "crafting:friedchicken"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " # ",
+            "#C#",
+            " # "
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:wheat"
+            },
+            "C": {
+                "item": "minecraft:chicken"
+            }
+        },
+        "result": {
+            "item": "foodsplus2:friedchicken",
+            "count": 1
+        }
+    }
+}

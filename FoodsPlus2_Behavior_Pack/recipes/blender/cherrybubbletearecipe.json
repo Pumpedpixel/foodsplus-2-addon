@@ -1,0 +1,43 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "blender:cherrybubbletearecipe"
+    },
+
+    
+    "tags": [ "blender" ],
+    "pattern": [
+      "CFI",
+      " S ",
+      "DRZ"
+    ],
+    "key": {
+      "C": {
+        "item": "foodsplus2:cherry" //Middle left
+      },
+	  "Z": {
+        "item": "foodsplus2:rye" //Middle left
+      },
+	  "D": {
+        "item": "minecraft:sugar" //bottom right
+      },
+	  "R": {
+        "item": "foodsplus2:flour" //Middle right
+      },
+	  "I": {
+        "item": "foodsplus2:oat" //top left
+      },
+	  "S": {
+        "item": "minecraft:redstone" //fuel
+      },
+      "F": {
+        "item": "minecraft:wheat" //bottom left
+      }
+    },
+    "result": {
+      "item": "foodsplus2:cherrybubbletea",
+	  "count": 1
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "foodsplus2:guardianfinsoup",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "guardianfinsoup",
+      "minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "apple"
+    }
+  }
+}

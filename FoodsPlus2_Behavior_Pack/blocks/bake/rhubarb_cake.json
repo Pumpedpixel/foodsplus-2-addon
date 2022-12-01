@@ -1,0 +1,207 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "foodsplus2:rhubarb_cake",
+			"is_experimental": true,
+			"properties": {
+				"fpc:slices": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('fpc:slices') == 0",
+				"components": {
+					"minecraft:geometry": "geometry.slice1",
+					"minecraft:on_interact": {
+						"event": "fpc:slice2"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('fpc:slices') == 1",
+				"components": {
+					"minecraft:geometry": "geometry.slice2",
+					"minecraft:on_interact": {
+						"event": "fpc:slice3"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('fpc:slices') == 2",
+				"components": {
+					"minecraft:geometry": "geometry.slice3",
+					"minecraft:on_interact": {
+						"event": "fpc:slice4"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('fpc:slices') == 3",
+				"components": {
+					"minecraft:geometry": "geometry.slice4",
+					"minecraft:on_interact": {
+						"event": "fpc:slice5"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('fpc:slices') == 4",
+				"components": {
+					"minecraft:geometry": "geometry.slice5",
+					"minecraft:on_interact": {
+						"event": "fpc:slice6"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('fpc:slices') == 5",
+				"components": {
+					"minecraft:geometry": "geometry.slice6",
+					"minecraft:on_interact": {
+						"event": "fpc:slice7"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('fpc:slices') == 6",
+				"components": {
+					"minecraft:geometry": "geometry.slice7",
+					"minecraft:on_interact": {
+						"event": "fpc:all_ate"
+					}
+				}
+			}
+		],
+		"components": {
+			"minecraft:on_player_placing": {
+				"event": "fpc:slice1"
+			},
+			"minecraft:destroy_time": 0.75,
+			"minecraft:explosion_resistance": 0.5,
+			"minecraft:map_color": "#E45F5F",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "rhubarb_cake",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:block_light_absorption": 0,
+			"minecraft:pick_collision": {
+				"origin": [
+					-7,
+					0,
+					-7
+				],
+				"size": [
+					14,
+					8.5,
+					14
+				]
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-7,
+					0,
+					-7
+				],
+				"size": [
+					14,
+					8.5,
+					14
+				]
+			},
+			"minecraft:loot": "loot_tables/empty.json"
+		},
+		"events": {
+			"fpc:slice1": {
+				"set_block_property": {
+					"fpc:slice1": 0
+				},
+				"run_command": {
+					"command": [
+						"effect @p saturation 1 3"
+					]
+				}
+			},
+			"fpc:slice2": {
+				"set_block_property": {
+					"fpc:slices": 1
+				},
+				"run_command": {
+					"command": [
+						"effect @p saturation 1 3"
+					]
+				}
+			},
+			"fpc:slice3": {
+				"set_block_property": {
+					"fpc:slices": 2
+				},
+				"run_command": {
+					"command": [
+						"effect @p saturation 1 3"
+					]
+				}
+			},
+			"fpc:slice4": {
+				"set_block_property": {
+					"fpc:slices": 3
+				},
+				"run_command": {
+					"command": [
+						"effect @p saturation 1 3"
+					]
+				}
+			},
+			"fpc:slice5": {
+				"set_block_property": {
+					"fpc:slices": 4
+				},
+				"run_command": {
+					"command": [
+						"effect @p saturation 1 3"
+					]
+				}
+			},
+			"fpc:slice6": {
+				"set_block_property": {
+					"fpc:slices": 5
+				},
+				"run_command": {
+					"command": [
+						"effect @p saturation 1 3"
+					]
+				}
+			},
+			"fpc:slice7": {
+				"set_block_property": {
+					"fpc:slices": 6
+				},
+				"run_command": {
+					"command": [
+						"effect @p saturation 1 3"
+					]
+				}
+			},
+			"fpc:all_ate": {
+				"set_block_at_pos": {
+					"block_type": "minecraft:air"
+				},
+				"run_command": {
+					"command": [
+						"effect @p saturation 1 3"
+					]
+				}
+			}
+		}
+	}
+}

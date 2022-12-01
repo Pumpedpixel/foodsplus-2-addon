@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "crafting:palmplanks"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#"
+        ],
+        "key": {
+            "#": {
+                "item": "foodsplus2:palmlog",
+                "data": 3
+            }
+        },
+        "result": {
+            "item": "foodsplus2:palmplank",
+            "data": 2,
+            "count": 4
+        }
+    }
+}

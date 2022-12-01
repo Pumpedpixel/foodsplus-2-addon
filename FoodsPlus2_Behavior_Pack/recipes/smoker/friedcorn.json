@@ -1,0 +1,15 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "crafting:friedcorn"
+        },
+        "tags": [
+            "smoker"
+        ],
+        "input": {
+            "item": "foodsplus2:corn"
+        },
+        "output": "foodsplus2:friedcorn"
+    }
+}

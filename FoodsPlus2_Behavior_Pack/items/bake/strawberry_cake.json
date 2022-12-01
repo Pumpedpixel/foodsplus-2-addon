@@ -1,0 +1,25 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "foodsplus2:strawberry_cake_item",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:icon": {
+				"texture": "strawberrycake"
+			},
+			"minecraft:block_placer": {
+				"block": "foodsplus2:strawberry_cake"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.miscFood"
+			},
+			"minecraft:display_name": {
+				"value": "§e[§aFP2§e] §fStrawberry Cake \n §7Placeable!"
+			}
+		},
+		"events": {}
+	}
+}

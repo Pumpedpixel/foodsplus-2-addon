@@ -1,0 +1,16 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "crafting:steamedbroccoli"
+        },
+        "tags": [
+            "smoker"
+        ],
+        "input": {
+            "item": "foodsplus2:broccoli",
+            "data": 3
+        },
+        "output": "foodsplus2:steamedbroccoli"
+    }
+}

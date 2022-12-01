@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "crafting:orangeplanks"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#"
+        ],
+        "key": {
+            "#": {
+                "item": "foodsplus2:orangelog"
+            }
+        },
+        "result": {
+            "item": "foodsplus2:orangeplank",
+            "count": 4
+        }
+    }
+}

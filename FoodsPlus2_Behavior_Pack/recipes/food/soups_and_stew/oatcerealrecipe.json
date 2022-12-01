@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "crafting:oatcerealrecipe"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "CFC",
+      " S ",
+      "   "
+    ],
+    "key": {
+      "C": {
+        "item": "foodsplus2:oat" //middle
+      },
+	  "S": {
+        "item": "minecraft:sugar" //fuel
+      },
+      "F": {
+        "item": "minecraft:bowl" //bottom
+      }
+    },
+    "result": {
+      "item": "foodsplus2:oatcereal",
+	  "count": 1
+    }
+  }
+}

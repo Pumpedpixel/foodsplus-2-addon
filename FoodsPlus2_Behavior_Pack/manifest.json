@@ -1,0 +1,39 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "FoodsPlus 2 [BP] v1.6.0 TEST",
+    "description": "Foodsplus 2, adds in tons of foods made by dreampixel, discord invite: TTYgSMR",
+    "uuid": "51fd1df4-e4a8-2556-77d7-7e67a18c89ed",
+    "version": [
+      1,
+      6,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      17,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "05761fb2-bd83-fe3b-51e0-0fb696036d59",
+      "version": [
+        1,
+        6,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "80901f90-44d4-36a0-a1be-367149bfa4f3",
+      "version": [
+        1,
+        6,
+        0
+      ]
+    }
+  ]
+}

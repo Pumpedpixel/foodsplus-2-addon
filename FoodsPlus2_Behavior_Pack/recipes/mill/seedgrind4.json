@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mill:seedgrind4"
+    },
+
+    
+    "tags": [ "mill" ],
+    "pattern": [
+      "CfI",
+      " S ",
+      "   "
+    ],
+    "key": {
+      "C": {
+        "item": "foodsplus2:rice" //middle
+      },
+	  "S": {
+        "item": "minecraft:cobblestone" //fuel
+      }
+    },
+    "result": {
+      "item": "foodsplus2:rice_seeds",
+	  "count": 1
+    }
+  }
+}

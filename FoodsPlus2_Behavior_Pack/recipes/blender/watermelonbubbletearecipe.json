@@ -1,0 +1,43 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "blender:watermelonbubbletearecipe"
+    },
+
+    
+    "tags": [ "blender" ],
+    "pattern": [
+      "CFI",
+      " S ",
+      "DRZ"
+    ],
+    "key": {
+      "C": {
+        "item": "foodsplus2:peach" //Middle left
+      },
+	  "Z": {
+        "item": "minecraft:melon" //Middle left
+      },
+	  "D": {
+        "item": "minecraft:sugar" //bottom right
+      },
+	  "R": {
+        "item": "foodsplus2:flour" //Middle right
+      },
+	  "I": {
+        "item": "foodsplus2:sorghum" //top left
+      },
+	  "S": {
+        "item": "minecraft:redstone" //fuel
+      },
+      "F": {
+        "item": "minecraft:wheat" //bottom left
+      }
+    },
+    "result": {
+      "item": "foodsplus2:watermelonbubbletea",
+	  "count": 1
+    }
+  }
+}

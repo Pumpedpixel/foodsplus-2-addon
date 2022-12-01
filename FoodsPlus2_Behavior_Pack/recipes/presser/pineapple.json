@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "presser:pineapple"
+    },
+
+    
+    "tags": [ "presser" ],
+    "pattern": [
+      "C  ",
+      "   ",
+      "   "
+    ],
+    "key": {
+      "C": {
+        "item": "foodsplus2:pineapple" //middle
+      }
+    },
+    "result": {
+      "item": "foodsplus2:pineapplejuice",
+	  "count": 1
+    }
+  }
+}

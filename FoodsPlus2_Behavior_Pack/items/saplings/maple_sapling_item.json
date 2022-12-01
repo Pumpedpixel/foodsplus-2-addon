@@ -1,0 +1,22 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "foodsplus2:maple_sapling_item",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "maple_sapling"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sapling"
+			},
+			"minecraft:block_placer": {
+				"block": "foodsplus2:maple_sapling",
+				"use_block_description": true
+			}
+		},
+		"events": {}
+	}
+}

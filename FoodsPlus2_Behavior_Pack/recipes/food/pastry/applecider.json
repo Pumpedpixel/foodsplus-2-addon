@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "crafting:applecider"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "WWW",
+            "ZZZ",
+            " W "
+        ],
+        "key": {
+            "W": {
+                "item": "minecraft:apple"
+            },
+            "Z": {
+                "item": "minecraft:sugar"
+            }
+        },
+        "result": {
+            "item": "foodsplus2:applecider",
+            "count": 1
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "foodsplus2:salt"
+		},
+		"components": {
+			"minecraft:destroy_time": 1.5,
+			"minecraft:explosion_resistance": 4,
+			"minecraft:map_color": "#FF9600",
+			"minecraft:creative_category": {
+				"group": "ItemGroup.name.Construction",
+				"category": "Construction"
+			}
+		},
+		"events": {}
+	}
+}

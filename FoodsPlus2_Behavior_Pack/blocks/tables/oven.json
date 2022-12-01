@@ -1,0 +1,71 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "foodsplus2:oven",
+      "properties": {
+        "foodsplus2:rotation": [2, 3, 4, 5 ]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_property('foodsplus2:rotation') == 2",
+        "components": {
+          "minecraft:rotation": [ 0, 180, 0 ]
+        }
+      },
+      {
+        "condition": "query.block_property('foodsplus2:rotation') == 3",
+        "components": {
+          "minecraft:rotation": [ 0, 0, 0 ]
+        }
+      },
+      {
+        "condition": "query.block_property('foodsplus2:rotation') == 4",
+        "components": {
+          "minecraft:rotation": [ 0, -90, 0 ]
+        }
+      },
+      {
+        "condition": "query.block_property('foodsplus2:rotation') == 5",
+        "components": {
+          "minecraft:rotation": [ 0, -270, 0 ]
+        }
+      }
+    ],
+    "components": {
+      "minecraft:destroy_time": 1,
+      "minecraft:flammable": {
+        "flame_odds": 0,
+        "burn_odds": 0
+      },
+      "minecraft:geometry": "geometry.oven",
+      "minecraft:crafting_table": {
+        "custom_description": "§fOven",
+        "grid_size": 3, 
+        "crafting_tags": ["oven"]
+      },
+      "minecraft:creative_category": {
+        "group": "ItemGroup.name.Construction",
+        "category": "Construction"
+      },
+      "minecraft:on_player_placing": {
+        "event": "rotation"
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "top_oven",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:block_light_absorption": 1
+    },
+    "events": {
+      "rotation": {
+        "set_block_property": {
+          "foodsplus2:rotation": "(query.cardinal_player_facing)"
+        }
+      }
+    }
+  }
+}

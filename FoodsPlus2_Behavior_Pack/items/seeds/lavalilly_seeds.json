@@ -1,0 +1,22 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "foodsplus2:lavalilly_seeds",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.seed"
+			},
+			"minecraft:block_placer": {
+				"block": "foodsplus2:lavalilly_crop", //place crop
+				"use_block_description": true
+			},
+			"minecraft:icon": {
+				"texture": "lavalilly_seeds"
+			}
+		},
+		"events": {}
+	}
+}

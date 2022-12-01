@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "crafting:tortillarecipe"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "XXX",
+            "###",
+            " W "
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:bread"
+            },
+			 "W": {
+                "item": "minecraft:wheat"
+            },
+            "X": {
+                "item": "foodsplus2:rye"
+            }
+        },
+        "result": {
+            "item": "foodsplus2:tortilla",
+            "count": 1
+        }
+    }
+}

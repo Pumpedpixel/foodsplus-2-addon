@@ -1,0 +1,32 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "crafting:frenchnaplolenonrecipe"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " #E",
+            "WWW",
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:sugar"
+            },
+            "E": {
+                "item": "minecraft:egg"
+            },
+            "W": {
+                "item": "minecraft:wheat"
+            }
+        },
+        "result": {
+            "item": "foodsplus2:frenchnapoleon",
+            "data": 1,
+            "count": 1
+        }
+    }
+}

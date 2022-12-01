@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "foodsplus2:glow_berry_pie",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "glow_berry_pie",
+      "minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "apple"
+    }
+  }
+}

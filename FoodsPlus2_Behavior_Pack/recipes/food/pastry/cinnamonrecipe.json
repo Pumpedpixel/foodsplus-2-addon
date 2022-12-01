@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "crafting:cinnamonrecipe"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#"
+        ],
+        "key": {
+            "#": {
+                "item": "foodsplus2:cinnamonplank"
+            }
+        },
+        "result": {
+            "item": "foodsplus2:cinnamon",
+            "count": 2
+        }
+    }
+}

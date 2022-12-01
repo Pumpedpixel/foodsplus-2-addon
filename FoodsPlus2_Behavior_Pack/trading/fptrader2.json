@@ -1,0 +1,217 @@
+{
+  "tiers": [
+    {
+      "groups": [
+        {
+          "num_to_select": 5,
+          "trades": [
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 16
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:birthday_cake_item",
+							"quantity": 1
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 16
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:blueberry_cake_item",
+							"quantity": 1
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 16
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:carrot_cake_item",
+							"quantity": 1
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 16
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:chocolate_cake_item",
+							"quantity": 1
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 16
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:grape_cake_item",
+							"quantity": 1
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 16
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:maple_cake_item",
+							"quantity": 1
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 16
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:marshmellow_cake_item",
+							"quantity": 1
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 16
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:rhubarb_cake_item",
+							"quantity": 1
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 16
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:strawberry_cake_item",
+							"quantity": 1
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 16
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:strawberry_pie_item",
+							"quantity": 1
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 10
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:cinnamon",
+							"quantity": 3
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:emerald",
+							"quantity": 16
+						}
+					],
+					"gives": [
+						{
+							"item": "foodsplus2:doublefudge_cake_item",
+							"quantity": 16
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 0,
+					"reward_exp": false
+				}
+			  ]
+		    }
+		  ]
+		}
+	]
+}

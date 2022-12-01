@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "oven:applepie"
+    },
+
+    
+    "tags": [ "oven" ],
+    "pattern": [
+      "C  ",
+      " F ",
+      "   "
+    ],
+    "key": {
+      "C": {
+        "item": "foodsplus2:apple_pie" //middle
+      },
+	  "F": {
+        "item": "foodsplus2:cookingoil" //fuel
+      }
+    },
+    "result": {
+      "item": "foodsplus2:baked_apple_pie",
+	  "count": 1
+    }
+  }
+}

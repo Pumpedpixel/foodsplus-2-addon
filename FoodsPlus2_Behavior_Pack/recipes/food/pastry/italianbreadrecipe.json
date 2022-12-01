@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "crafting:italianbreadrecipe"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "foodsplus2:barley"
+            }
+        },
+        "result": {
+            "item": "foodsplus2:italianbread",
+            "count": 1
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "crafting:soullightrecipe"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#"
+        ],
+        "key": {
+            "#": {
+                "item": "foodsplus2:soulroot",
+                "data": 3
+            }
+        },
+        "result": {
+            "item": "foodsplus2:soullight",
+            "data": 2,
+            "count": 4
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "foodsplus2:fptrader2",
+      "materials": {
+        "default": "villager"
+      },
+      "textures": {
+        "default": "textures/entity/fptrader2",
+		"default2": "textures/entity/fptrader2"
+      },
+      "geometry": {
+        "default": "geometry.fptrader2"
+      },
+      "animations": {
+        "general": "animation.villager.general",
+        "look_at_target": "animation.common.look_at_target",
+        "move": "animation.villager.move",
+        "baby_transform": "animation.villager.baby_transform"
+      },
+      "animation_controllers": [
+        { "general": "controller.animation.villager.general" },
+        { "move": "controller.animation.villager.move" },
+        { "baby": "controller.animation.villager.baby" }
+      ],
+      "render_controllers": [ "controller.render.fptrader" ],
+      "spawn_egg": {
+        "base_color": "#FFFFFF",
+        "overlay_color": "#744C00"
+      }
+    }
+  }
+}

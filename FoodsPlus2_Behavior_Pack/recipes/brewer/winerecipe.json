@@ -1,0 +1,43 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "brewer:winerecipe"
+    },
+
+    
+    "tags": [ "brewer" ],
+    "pattern": [
+      "CFI",
+      " S ",
+      "DRZ"
+    ],
+    "key": {
+      "C": {
+        "item": "foodsplus2:grape" //Middle left
+      },
+	  "Z": {
+        "item": "foodsplus2:cherry" //Middle left
+      },
+	  "D": {
+        "item": "minecraft:sugar" //bottom right
+      },
+	  "R": {
+        "item": "foodsplus2:flour" //Middle right
+      },
+	  "I": {
+        "item": "foodsplus2:barley" //top left
+      },
+	  "S": {
+        "item": "foodsplus2:fermentedbarley" //fuel
+      },
+      "F": {
+        "item": "minecraft:wheat" //bottom left
+      }
+    },
+    "result": {
+      "item": "foodsplus2:wine",
+	  "count": 1
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+ "format_version": "1.8.0",
+ "render_controllers": {
+  "controller.render.butterfly0": {
+   "part_visibility": [
+    {
+     "*": "query.variant == 0"
+    }
+   ],
+   "geometry": "Geometry.butterfly0",
+   "materials": [
+    {
+     "*": "Material.default"
+    }
+   ],
+   "textures": [
+    "Texture.butterfly"
+   ]
+  },
+  "controller.render.butterfly1": {
+   "part_visibility": [
+    {
+     "*": "query.variant == 1"
+    }
+   ],
+   "geometry": "Geometry.butterfly1",
+   "materials": [
+    {
+     "*": "Material.default"
+    }
+   ],
+   "textures": [
+    "Texture.butterfly"
+   ]
+  },
+  "controller.render.butterfly2": {
+   "part_visibility": [
+    {
+     "*": "query.variant == 2"
+    }
+   ],
+   "geometry": "Geometry.butterfly2",
+   "materials": [
+    {
+     "*": "Material.default"
+    }
+   ],
+   "textures": [
+    "Texture.butterfly"
+   ]
+  },
+  "controller.render.butterfly3": {
+   "part_visibility": [
+    {
+     "*": "query.variant == 3"
+    }
+   ],
+   "geometry": "Geometry.butterfly3",
+   "materials": [
+    {
+     "*": "Material.default"
+    }
+   ],
+   "textures": [
+    "Texture.butterfly"
+   ]
+  },
+  "controller.render.butterfly4": {
+   "part_visibility": [
+    {
+     "*": "query.variant == 4"
+    }
+   ],
+   "geometry": "Geometry.butterfly4",
+   "materials": [
+    {
+     "*": "Material.default"
+    }
+   ],
+   "textures": [
+    "Texture.butterfly"
+   ]
+  },
+  "controller.render.butterfly5": {
+   "part_visibility": [
+    {
+     "*": "query.variant == 5"
+    }
+   ],
+   "geometry": "Geometry.butterfly5",
+   "materials": [
+    {
+     "*": "Material.default"
+    }
+   ],
+   "textures": [
+    "Texture.butterfly"
+   ]
+  }
+ }
+}

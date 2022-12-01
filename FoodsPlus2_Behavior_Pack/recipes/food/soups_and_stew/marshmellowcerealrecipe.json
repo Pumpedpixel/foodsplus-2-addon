@@ -1,0 +1,37 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "crafting:marshmellowcereal"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "MFC",
+      "WS ",
+      "   "
+    ],
+    "key": {
+      "C": {
+        "item": "foodsplus2:oat" //middle
+      },
+	  "W": {
+        "item": "minecraft:wheat" //middle
+      },
+	  "M": {
+        "item": "foodsplus2:marshmellow" //middle
+      },
+	  "S": {
+        "item": "minecraft:sugar" //fuel
+      },
+      "F": {
+        "item": "minecraft:bowl" //bottom
+      }
+    },
+    "result": {
+      "item": "foodsplus2:marshmellowcereal",
+	  "count": 1
+    }
+  }
+}

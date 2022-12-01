@@ -1,0 +1,43 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "blender:peachsmoothierecipe"
+    },
+
+    
+    "tags": [ "blender" ],
+    "pattern": [
+      "CFI",
+      " S ",
+      "DRZ"
+    ],
+    "key": {
+      "C": {
+        "item": "foodsplus2:peach" //Middle left
+      },
+	  "Z": {
+        "item": "minecraft:ice" //Middle left
+      },
+	  "D": {
+        "item": "minecraft:sugar" //bottom right
+      },
+	  "R": {
+        "item": "minecraft:sugar" //Middle right
+      },
+	  "I": {
+        "item": "foodsplus2:oat" //top left
+      },
+	  "S": {
+        "item": "minecraft:redstone" //fuel
+      },
+      "F": {
+        "item": "minecraft:wheat" //bottom left
+      }
+    },
+    "result": {
+      "item": "foodsplus2:peachsmoothie",
+	  "count": 1
+    }
+  }
+}

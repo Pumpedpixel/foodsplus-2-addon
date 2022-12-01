@@ -1,0 +1,37 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "crafting:croquemonisuerrcipe"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#B#",
+            "SRP",
+            "#B#"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:wheat"
+            },
+            "B": {
+                "item": "minecraft:bread"
+            },
+            "S": {
+                "item": "foodsplus2:lettuce"
+            },
+            "R": {
+                "item": "foodsplus2:turnip"
+            },
+            "P": {
+                "item": "minecraft:porkchop"
+            }
+        },
+        "result": {
+            "item": "foodsplus2:croquemonsieur",
+            "count": 1
+        }
+    }
+}

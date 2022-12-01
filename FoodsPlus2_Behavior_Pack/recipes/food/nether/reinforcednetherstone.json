@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "crafting:reinforcednetherstone"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "##",
+            "ii"
+        ],
+        "key": {
+            "#": {
+                "item": "foodsplus2:netherstone"
+            },
+            "i": {
+                "item": "minecraft:iron_ingot"
+            }
+        },
+        "result": {
+            "item": "foodsplus2:reinforcednetherstone",
+            "data": 2,
+            "count": 1
+        }
+    }
+}

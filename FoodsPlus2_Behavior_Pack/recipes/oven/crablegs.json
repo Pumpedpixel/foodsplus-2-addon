@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "oven:crablegs"
+    },
+
+    
+    "tags": [ "oven" ],
+    "pattern": [
+      "C  ",
+      " F ",
+      "   "
+    ],
+    "key": {
+      "C": {
+        "item": "foodsplus2:crablegs" //middle
+      },
+	  "F": {
+        "item": "foodsplus2:cookingoil" //fuel
+      }
+    },
+    "result": {
+      "item": "foodsplus2:crablegs2",
+	  "count": 1
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "crafting:netherberriepierecipe"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#G#",
+            "SSS"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:wheat"
+            },
+            "G": {
+                "item": "foodsplus2:netherberries"
+            },
+            "S": {
+                "item": "minecraft:sugar"
+            }
+        },
+        "result": {
+            "item": "foodsplus2:netherberriepie",
+            "count": 1
+        }
+    }
+}

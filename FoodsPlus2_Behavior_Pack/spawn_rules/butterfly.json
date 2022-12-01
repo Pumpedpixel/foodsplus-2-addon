@@ -1,0 +1,71 @@
+{
+ "format_version": "1.8.0",
+ "minecraft:spawn_rules": {
+  "description": {
+   "identifier": "chocolate:butterfly",
+   "population_control": "animal"
+  },
+  "conditions": [
+   {
+    "minecraft:spawns_on_surface": {},
+    "minecraft:brightness_filter": {
+     "min": 7,
+     "max": 15,
+     "adjust_for_weather": false
+    },
+    "minecraft:weight": {
+     "default": 5
+    },
+    "minecraft:herd": {
+     "min_size": 1,
+     "max_size": 4
+    },
+    "minecraft:biome_filter": {
+     "test": "has_biome_tag",
+     "operator": "==",
+     "value": "bee_habitat"
+    }
+   },
+   {
+    "minecraft:spawns_on_surface": {},
+    "minecraft:brightness_filter": {
+     "min": 7,
+     "max": 15,
+     "adjust_for_weather": false
+    },
+    "minecraft:weight": {
+     "default": 10
+    },
+    "minecraft:herd": {
+     "min_size": 4,
+     "max_size": 8
+    },
+    "minecraft:biome_filter": {
+     "test": "has_biome_tag",
+     "operator": "==",
+     "value": "meadow"
+    }
+   },
+   {
+    "minecraft:spawns_on_surface": {},
+    "minecraft:brightness_filter": {
+     "min": 7,
+     "max": 15,
+     "adjust_for_weather": false
+    },
+    "minecraft:weight": {
+     "default": 10
+    },
+    "minecraft:herd": {
+     "min_size": 6,
+     "max_size": 8
+    },
+    "minecraft:biome_filter": {
+     "test": "has_biome_tag",
+     "operator": "==",
+     "value": "flower_forest"
+    }
+   }
+  ]
+ }
+}

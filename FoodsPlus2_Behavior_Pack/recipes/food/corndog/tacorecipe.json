@@ -1,0 +1,40 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "crafting:tacorecipe"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " O ",
+            " #M",
+            "XDZ"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:cooked_beef"
+            },
+            "O": {
+                "item": "foodsplus2:onion"
+            },
+		   "Z": {
+                "item": "foodsplus2:lettuce"
+            },
+		 "D": {
+                "item": "foodsplus2:tortilla"
+            },
+			"M": {
+                "item": "foodsplus2:tomato"
+            },
+            "X": {
+                "item": "foodsplus2:rice"
+            }
+        },
+        "result": {
+            "item": "foodsplus2:taco",
+            "count": 1
+        }
+    }
+}

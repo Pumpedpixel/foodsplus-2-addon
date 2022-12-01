@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "crafting:lemonplanks"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#"
+        ],
+        "key": {
+            "#": {
+                "item": "foodsplus2:lemonlog"
+            }
+        },
+        "result": {
+            "item": "foodsplus2:lemonplank",
+            "count": 4
+        }
+    }
+}

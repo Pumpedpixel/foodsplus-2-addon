@@ -1,0 +1,31 @@
+{
+  "materials": {
+    "version": "1.0.0",
+    "translucence:entity_alphatest": {},
+	"with_alpha:entity_alphatest": {},
+	"no_alpha:entity": {},
+    "fish:entity_alphatest": {
+
+    },
+    "audi_r8:entity_alphatest": {
+
+    },
+    "cars:entity_alphatest": {
+
+    },
+    "jellyfish:entity_emissive_alpha": {
+      "+states": [ "Blending" ],
+      "+defines": [ "USE_EMISSIVE" ]
+    },
+	"popcorncart:entity_alphatest": {
+      "+states": [ "Blending" ],
+      "+defines": [ "ALPHA_TEST" ]
+    },
+    "sesto_elemento:entity_alphatest": {
+
+    },
+    "televisor:entity_alphatest": {
+
+    }
+  }
+}

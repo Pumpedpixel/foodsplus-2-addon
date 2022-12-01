@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "crafting:fishkabob"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "  #",
+            " S ",
+            "/  "
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:cod"
+            },
+            "S": {
+                "item": "minecraft:salmon"
+            },
+            "/": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": {
+            "item": "foodsplus2:fish_kabob",
+            "count": 1
+        }
+    }
+}

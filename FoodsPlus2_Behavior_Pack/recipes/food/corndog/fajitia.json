@@ -1,0 +1,46 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "crafting:fajitarecipe"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " OD",
+            "N#B",
+            "XAZ"
+        ],
+        "key": {
+            "#": {
+                "item": "foodsplus2:beans"
+            },
+		    "A": {
+                "item": "minecraft:cooked_chicken"
+            },
+			"D": {
+                "item": "minecraft:milk_bucket"
+            },
+            "O": {
+                "item": "foodsplus2:onion"
+            },
+	        "B": {
+                "item": "minecraft:cooked_beef"
+            },
+			"Z": {
+                "item": "foodsplus2:lettuce"
+            },
+			"N": {
+                "item": "foodsplus2:ghostpepper"
+            },
+            "X": {
+                "item": "foodsplus2:rice"
+            }
+        },
+        "result": {
+            "item": "foodsplus2:fajita",
+            "count": 1
+        }
+    }
+}

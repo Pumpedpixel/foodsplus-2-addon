@@ -1,0 +1,47 @@
+{
+ "format_version": "1.10.0",
+ "minecraft:client_entity": {
+  "description": {
+   "identifier": "foodsplus2:butterfly",
+   "materials": {
+    "default": "bee"
+   },
+   "textures": {
+    "butterfly": "textures/entity/butterfly/butterfly"
+   },
+   "geometry": {
+    "butterfly0": "geometry.butterfly0",
+    "butterfly1": "geometry.butterfly1",
+    "butterfly2": "geometry.butterfly2",
+    "butterfly3": "geometry.butterfly3",
+    "butterfly4": "geometry.butterfly4",
+    "butterfly5": "geometry.butterfly5"
+   },
+   "animations": {
+    "flying": "animation.butterfly.fly",
+    "bobbing": "animation.butterfly.bob"
+   },
+   "particle_effects": {
+    "nectar_dripping": "minecraft:nectar_drip_particle"
+   },
+   "scripts": {
+    "animate": [
+     "bobbing",
+     "flying"
+    ]
+   },
+   "render_controllers": [
+    "controller.render.butterfly0",
+    "controller.render.butterfly1",
+    "controller.render.butterfly2",
+    "controller.render.butterfly3",
+    "controller.render.butterfly4",
+    "controller.render.butterfly5"
+   ],
+   "spawn_egg": {
+    "base_color": "#9E0FCC",
+    "overlay_color": "#FAF0E6"
+   }
+  }
+ }
+}

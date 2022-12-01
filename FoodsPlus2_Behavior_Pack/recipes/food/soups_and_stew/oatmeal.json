@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "crafting:oatmeal"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "# #",
+            "N#N",
+            " B "
+        ],
+        "key": {
+            "#": {
+                "item": "foodsplus2:oat"
+            },
+            "N": {
+                "item": "minecraft:sugar"
+            },
+            "B": {
+                "item": "minecraft:bowl"
+            }
+        },
+        "result": {
+            "item": "foodsplus2:oatmeal",
+            "count": 1
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "crafting:smoresrecipe2"
+        },
+        "tags": [
+            "campfire",
+            "soul_campfire"
+        ],
+        "input": {
+            "item": "foodsplus2:smores"
+        },
+        "output": "foodsplus2:smores2"
+    }
+}

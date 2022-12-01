@@ -1,0 +1,15 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "crafting:netherberrypie2"
+        },
+        "tags": [
+            "smoker"
+        ],
+        "input": {
+            "item": "foodsplus2:netherberriepie"
+        },
+        "output": "foodsplus2:bakednetherberriepie"
+    }
+}

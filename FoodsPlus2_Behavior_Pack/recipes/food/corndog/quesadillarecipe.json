@@ -1,0 +1,37 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "crafting:quesadillarecipe"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " O ",
+            " # ",
+            "XZM"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:milk_bucket"
+            },
+            "O": {
+                "item": "foodsplus2:onion"
+            },
+		 "Z": {
+                "item": "foodsplus2:tomato"
+            },
+		"M": {
+                "item": "minecraft:cooked_chicken"
+            },
+            "X": {
+                "item": "foodsplus2:rice"
+            }
+        },
+        "result": {
+            "item": "foodsplus2:quesadilla",
+            "count": 1
+        }
+    }
+}

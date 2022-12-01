@@ -1,0 +1,37 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "crafting:biscutrecipe"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###",
+            "WEW",
+            " ZS"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:wheat"
+            },
+            "W": {
+                "item": "foodsplus2:oat"
+            },
+			"Z": {
+                "item": "foodsplus2:canola"
+            },
+			"S": {
+                "item": "foodsplus2:salt"
+            },
+            "E": {
+                "item": "minecraft:egg"
+            }
+        },
+        "result": {
+            "item": "foodsplus2:biscut",
+            "count": 1
+        }
+    }
+}

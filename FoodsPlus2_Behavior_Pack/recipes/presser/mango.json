@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "presser:mango"
+    },
+
+    
+    "tags": [ "presser" ],
+    "pattern": [
+      "C  ",
+      "   ",
+      "   "
+    ],
+    "key": {
+      "C": {
+        "item": "foodsplus2:mango" //middle
+      }
+    },
+    "result": {
+      "item": "foodsplus2:mangojuice",
+	  "count": 1
+    }
+  }
+}

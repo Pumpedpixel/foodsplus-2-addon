@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "foodsplus2:apple_pie",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "apple_pie",
+      "minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "apple"
+    }
+  }
+}

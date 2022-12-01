@@ -1,0 +1,168 @@
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"foodsplus2:bananapepper_crop": { //made by Dreampixel on mcpedl.com! if this was uploaded anywhere else its stolen! please report stolen content on our discord. discord.gg/TTYgSMR
+		"sound": "grass"
+	},
+	"foodsplus2:birthday_cake": {
+		"sound": "cloth"
+	},
+    "foodsplus2:blueberry_cake": {
+		"sound": "cloth"
+	},
+	"foodsplus2:carrot_cake": {
+		"sound": "cloth"
+	},
+	"foodsplus2:chocolate_cake": {
+		"sound": "cloth"
+	},
+	"foodsplus2:doublefudge_cake": {
+		"sound": "cloth"
+	},
+	"foodsplus2:grape_cake": {
+		"sound": "cloth"
+	},
+	"foodsplus2:maple_cake": {
+		"sound": "cloth"
+	},
+	"foodsplus2:marshmellow_cake": {
+		"sound": "cloth"
+	},
+	"foodsplus2:rhubarb_cake": {
+		"sound": "cloth"
+	},
+	"foodsplus2:strawberry_cake": {
+		"sound": "cloth"
+	},
+	"foodsplus2:strawberry_pie": {
+		"sound": "cloth"
+	},
+	"foodsplus2:barley_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:beans_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:blackberries_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:blueberries_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:brocolli_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:buckwheat_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:chocolate_cake": {
+		"sound": "cloth"
+	},
+	"foodsplus2:cabbage_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:canola_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:cherry_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:coconut_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:corn_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:ghostpepper_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:grape_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:habanero_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:lavalilly_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:jalapeno_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:lemon_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:lettuce_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:mango_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:marsh_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:netherberries_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:oat_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:onion_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:orange_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:peach_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:pineapple_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:rhubarb_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:rice_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:rye_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:sorghum_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:soulfruit_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:soybean_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:spelt_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:strawberries_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:sugerbeet_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:tea_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:tomato_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:turnip_crop": {
+		"sound": "grass"
+	},
+	"foodsplus2:vanilla_crop": {
+		"sound": "grass"
+	},
+	
+		"foodsplus2:salt": {
+		"textures": "foodsplus2_salt",
+		"sound": "dirt"
+	}
+}

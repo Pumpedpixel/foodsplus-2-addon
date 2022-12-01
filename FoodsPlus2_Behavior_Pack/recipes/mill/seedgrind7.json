@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mill:seedgrind7"
+    },
+
+    
+    "tags": [ "mill" ],
+    "pattern": [
+      "C  ",
+      " S ",
+      "   "
+    ],
+    "key": {
+      "C": {
+        "item": "foodsplus2:turnip" //middle
+      },
+	  "S": {
+        "item": "minecraft:cobblestone" //fuel
+      }
+    },
+    "result": {
+      "item": "foodsplus2:turnip_seeds",
+	  "count": 1
+    }
+  }
+}

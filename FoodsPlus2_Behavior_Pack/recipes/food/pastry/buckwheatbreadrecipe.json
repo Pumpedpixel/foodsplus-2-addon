@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "crafting:buckwheatbreadrecipe"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "foodsplus2:buckwheat"
+            }
+        },
+        "result": {
+            "item": "foodsplus2:buckwheatbread",
+            "count": 1
+        }
+    }
+}

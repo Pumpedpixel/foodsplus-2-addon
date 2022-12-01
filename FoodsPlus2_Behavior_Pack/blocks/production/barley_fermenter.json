@@ -1,0 +1,210 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "foodsplus2:barley_fermenter", //production for fermented barley
+			"is_experimental": false,
+			"properties": {
+				"foodsplus2:face": [ //face
+					0,
+					1,
+					2,
+					3
+				],
+				"foodsplus2:barleyf_stage": [ //stages
+					0,
+					1,
+					2,
+					3,
+					4
+				]
+			}
+		},
+		"components": {
+			"minecraft:on_player_placing": {
+				"event": "set_facing"
+			},
+			"minecraft:creative_category": {
+				"category": "items"
+			},
+			"minecraft:destroy_time": 0.2,
+			"minecraft:explosion_resistance": 1,
+			"minecraft:geometry": "geometry.canola_compressor",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "barley_fermenter",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false
+				}
+			},
+			"minecraft:on_interact": {
+				"event": "foodsplus2:update_barleyf"
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-7,
+					0,
+					-7
+				],
+				"size": [
+					14,
+					16,
+					14
+				]
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-7,
+					0,
+					-7
+				],
+				"size": [
+					14,
+					16,
+					14
+				]
+			},
+			"minecraft:block_light_absorption": 0
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('foodsplus2:face') == 0",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('foodsplus2:face') == 1",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('foodsplus2:face') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						270,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('foodsplus2:face') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('foodsplus2:barleyf_stage') == 0",
+				"components": {}
+			},
+			{
+				"condition": "query.block_property('foodsplus2:barleyf_stage') == 1",
+				"components": {}
+			},
+			{
+				"condition": "query.block_property('foodsplus2:barleyf_stage') == 2",
+				"components": {}
+			},
+			{
+				"condition": "query.block_property('foodsplus2:barleyf_stage') == 3",
+				"components": {}
+			},
+			{
+				"condition": "query.block_property('foodsplus2:barleyf_stage') == 4",
+				"components": {}
+			}
+		],
+		"events": {
+			"set_facing": {
+				"set_block_property": {
+					"foodsplus2:face": "query.cardinal_facing_2d-2"
+				}
+			},
+			"foodsplus2:barleyf_info": {
+				"sequence": [
+					{
+						"condition": "query.block_property('foodsplus2:barleyf_stage')==0",
+						"run_command": {
+							"command": [
+								"tellraw @p {\"rawtext\":[{\"text\":\"§bBarley Fermenter: §c0% §f[§c0§f/§a4§f]\"}]}"
+							]
+						}
+					},
+					{
+						"condition": "query.block_property('foodsplus2:barleyf_stage')==1",
+						"run_command": {
+							"command": [
+								"tellraw @p {\"rawtext\":[{\"text\":\"§bBarley Fermenter: §625% §f[§61§f/§a4§f]\"}]}"
+							]
+						}
+					},
+					{
+						"condition": "query.block_property('foodsplus2:barleyf_stage')==2",
+						"run_command": {
+							"command": [
+								"tellraw @p {\"rawtext\":[{\"text\":\"§bBarley Fermenter: §e50% §f[§e2§f/§a4§f]\"}]}"
+							]
+						}
+					},
+					{
+						"condition": "query.block_property('foodsplus2:barleyf_stage')==3",
+						"run_command": {
+							"command": [
+								"tellraw @p {\"rawtext\":[{\"text\":\"§bBarley Fermenter: §e75% §f[§e3§f/§a4§f]\"}]}"
+							]
+						}
+					},
+					{
+						"condition": "query.block_property('foodsplus2:barleyf_stage')==4",
+						"run_command": {
+							"command": [
+								"tellraw @p {\"rawtext\":[{\"text\":\"§bBarley Fermenter: §a100% §f[§a4§f/§a4§f]\"}]}"
+							]
+						}
+					}
+				]
+			},
+			"foodsplus2:update_barleyf": {
+				"sequence": [
+					{
+						"condition": "query.get_equipped_item_name==''",
+						"trigger": "foodsplus2:barleyf_info"
+					},
+					{
+						"condition": "query.get_equipped_item_name=='barley'&&query.block_property('foodsplus2:barleyf_stage')<4",
+						"set_block_property": {
+							"foodsplus2:barleyf_stage": "query.block_property('foodsplus2:barleyf_stage')+1"
+						},
+						"decrement_stack": {},
+						"trigger": "foodsplus2:barleyf_info"
+					},
+					{
+						"condition": "query.get_equipped_item_name=='glass_bottle'&&query.block_property('foodsplus2:barleyf_stage')>0",
+						"set_block_property": {
+							"foodsplus2:barleyf_stage": "query.block_property('foodsplus2:barleyf_stage')-1"
+						},
+						"spawn_loot": {
+							"table": "loot_tables/production/barleyf.json" //Give player oil
+						},
+						"decrement_stack": {},
+						"trigger": "foodsplus2:barleyf_info"
+					}
+				]
+			}
+		}
+	}
+}

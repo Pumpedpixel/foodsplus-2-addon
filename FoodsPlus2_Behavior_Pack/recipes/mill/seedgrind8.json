@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mill:seedgrind8"
+    },
+
+    
+    "tags": [ "mill" ],
+    "pattern": [
+      "C  ",
+      " S ",
+      "   "
+    ],
+    "key": {
+      "C": {
+        "item": "foodsplus2:onion" //middle
+      },
+	  "S": {
+        "item": "minecraft:cobblestone" //fuel
+      }
+    },
+    "result": {
+      "item": "foodsplus2:onion_seeds",
+	  "count": 1
+    }
+  }
+}

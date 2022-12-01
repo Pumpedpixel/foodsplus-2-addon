@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "crafting:cherryplanks"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#"
+        ],
+        "key": {
+            "#": {
+                "item": "foodsplus2:cherrylog",
+                "data": 3
+            }
+        },
+        "result": {
+            "item": "foodsplus2:cherryplank",
+            "data": 2,
+            "count": 4
+        }
+    }
+}

@@ -1,0 +1,444 @@
+{
+	"resource_pack_name": "foodsplus2",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"checkerboardtile": {
+			"textures": "textures/blocks/checkerboardtile" //You can replace this with anything, just remember the name
+		},
+		"chocolate_cake": {
+			"textures": [
+				"textures/blocks/bake/chocolate_cake"
+			]
+		},
+			"brewer":{
+				"textures": "textures/blocks/table/brewer"
+		},
+			"top_oven":{
+				"textures": "textures/blocks/table/top_oven"
+		},
+			"side_cooking":{
+				"textures": "textures/blocks/table/side_cooking"
+		},
+			"under_cooking":{
+				"textures": "textures/blocks/table/under_cooking"
+		},
+		"mill_top":{
+				"textures": "textures/blocks/table/mill_top"
+		},
+			"mill_side":{
+				"textures": "textures/blocks/table/mill_side"
+		},
+			"mill_under":{
+				"textures": "textures/blocks/table/mill_under"
+		},
+			"presser_top":{
+				"textures": "textures/blocks/table/presser_top"
+		},
+			"presser_side":{
+				"textures": "textures/blocks/table/presser_side"
+		},
+			"presser_bottom":{
+				"textures": "textures/blocks/table/presser_bottom"
+		},
+		"blender_bottom":{
+				"textures": "textures/blocks/table/blender_bottom"
+		},
+		"foodsplus2_salt": {
+			"textures": [
+				"textures/blocks/ores/salt"
+			]
+		},
+		"maple_cake": {
+			"textures": [
+				"textures/blocks/bake/maple_cake"
+			]
+		},
+		"rhubarb_cake": {
+			"textures": [
+				"textures/blocks/bake/rhubarb_cake"
+			]
+		},
+		"canola_compressor": {
+			"textures": [
+				"textures/blocks/production/canola_compressor"
+			]
+		},
+		"barley_fermenter": {
+			"textures": [
+				"textures/blocks/production/barley_fermenter"
+			]
+		},
+		"sunflower_compressor": {
+			"textures": [
+				"textures/blocks/production/sunflower_compressor"
+			]
+		},
+		"grape_cake": {
+			"textures": [
+				"textures/blocks/bake/grape_cake"
+			]
+		},
+		"strawberry_pie": {
+			"textures": [
+				"textures/blocks/bake/strawberry_pie"
+			]
+		},
+		"carrot_cake": {
+			"textures": [
+				"textures/blocks/bake/carrot_cake"
+			]
+		},
+		"marshmellow_cake": {
+			"textures": [
+				"textures/blocks/bake/marshmellow_cake"
+			]
+		},
+		"birthday_cake": {
+			"textures": [
+				"textures/blocks/bake/birthday_cake"
+			]
+		},
+		"blueberry_cake": {
+			"textures": [
+				"textures/blocks/bake/blueberry_cake"
+			]
+		},
+		"doublefudge_cake": {
+			"textures": [
+				"textures/blocks/bake/doublefudge_cake"
+			]
+		},
+		"strawberry_cake": {
+			"textures": [
+				"textures/blocks/bake/strawberry_cake"
+			]
+		},
+		"soulroot": {
+			"textures": "textures/blocks/soulroot" //You can replace this with anything, just remember the name
+		},
+		"soulleaves": {
+			"textures": "textures/blocks/soulleaves" //You can replace this with anything, just remember the name
+		},
+		"soullight": {
+			"textures": "textures/blocks/soullight" //You can replace this with anything, just remember the name
+		},
+		"netherstone": {
+			"textures": "textures/blocks/netherstone" //You can replace this with anything, just remember the name
+		},
+		"reinforcednetherstone": {
+			"textures": "textures/blocks/reinforcednetherstone" //You can replace this with anything, just remember the name
+		},
+		"maplelog": {
+			"textures": "textures/blocks/maplelog" //You can replace this with anything, just remember the name
+		},
+		"orangelog": {
+			"textures": "textures/blocks/orangelog" //You can replace this with anything, just remember the name
+		},
+		"lemonlog": {
+			"textures": "textures/blocks/lemonlog" //You can replace this with anything, just remember the name
+		},
+		"palmlog": {
+			"textures": "textures/blocks/palmlog" //You can replace this with anything, just remember the name
+		},
+		"palmleaves": {
+			"textures": "textures/blocks/palmleaves" //You can replace this with anything, just remember the name
+		},
+		"cherrylog": {
+			"textures": "textures/blocks/cherrylog" //You can replace this with anything, just remember the name
+		},
+		"lemonlog": {
+			"textures": "textures/blocks/lemonlog" //You can replace this with anything, just remember the name
+		},
+		"cinnamonlog": {
+			"textures": "textures/blocks/cinnamonlog" //You can replace this with anything, just remember the name
+		},
+		"mapleleaves": {
+			"textures": "textures/blocks/mapleleaves" //You can replace this with anything, just remember the name
+		},
+		"cinnamonleaves": {
+			"textures": "textures/blocks/cinnamonleaves" //You can replace this with anything, just remember the name
+		},
+		"cherryleaves": {
+			"textures": "textures/blocks/cherryleaves" //You can replace this with anything, just remember the name
+		},
+		"lemonleaves": {
+			"textures": "textures/blocks/lemonleaves" //You can replace this with anything, just remember the name
+		},
+		"peachleaves": {
+			"textures": "textures/blocks/peachleaves" //You can replace this with anything, just remember the name
+		},
+		"mangoleaves": {
+			"textures": "textures/blocks/mangoleaves" //You can replace this with anything, just remember the name
+		},
+		"orangeleaves": {
+			"textures": "textures/blocks/orangeleaves" //You can replace this with anything, just remember the name
+		},
+		"onioncrate": {
+			"textures": "textures/blocks/decroation/onioncrate"
+		},
+		"tomatocrate": {
+			"textures": "textures/blocks/decroation/tomatocrate"
+		},
+		"cherryplank": {
+			"textures": "textures/blocks/cherryplank" //You can replace this with anything, just remember the name
+		},
+		"lemonplank": {
+			"textures": "textures/blocks/lemonplank" //You can replace this with anything, just remember the name
+		},
+		"orangeplank": {
+			"textures": "textures/blocks/orangeplank" //You can replace this with anything, just remember the name
+		},
+		"cinnamonplank": {
+			"textures": "textures/blocks/cinnamonplank" //You can replace this with anything, just remember the name
+		},
+		"palmplank": {
+			"textures": "textures/blocks/palmplank" //You can replace this with anything, just remember the name
+		},
+		"orangeplank": {
+			"textures": "textures/blocks/orangeplank" //You can replace this with anything, just remember the name
+		},
+		"mapleplank": {
+			"textures": "textures/blocks/mapleplank" //You can replace this with anything, just remember the name
+		},
+		"maple_sapling": {
+			"textures": "textures/blocks/maple_sapling" //You can replace this with anything, just remember the name
+		},
+		"peach_sapling": {
+			"textures": "textures/blocks/peach_sapling" //You can replace this with anything, just remember the name
+		},
+		"mango_sapling": {
+			"textures": "textures/blocks/mango_sapling" //You can replace this with anything, just remember the name
+		},
+		"cinnamon_sapling": {
+			"textures": "textures/blocks/cinnamon_sapling" //You can replace this with anything, just remember the name
+		},
+		"palm_sapling": {
+			"textures": "textures/blocks/palm_sapling" //You can replace this with anything, just remember the name
+		},
+		"soul_sapling": {
+			"textures": "textures/blocks/soul_sapling" //You can replace this with anything, just remember the name
+		},
+		"cherry_sapling": {
+			"textures": "textures/blocks/cherry_sapling" //You can replace this with anything, just remember the name
+		},
+		"orange_sapling": {
+			"textures": "textures/blocks/orange_sapling" //You can replace this with anything, just remember the name
+		},
+		"lemon_sapling": {
+			"textures": "textures/blocks/lemon_sapling" //You can replace this with anything, just remember the name
+		},
+		    "lettuce_crop_0": { "textures": "textures/blocks/crops/lettuce/lettuce_stage_0" },
+			"lettuce_crop_1": { "textures": "textures/blocks/crops/lettuce/lettuce_stage_1" },
+			"lettuce_crop_2": { "textures": "textures/blocks/crops/lettuce/lettuce_stage_2" },   
+			"lettuce_crop_3": { "textures": "textures/blocks/crops/lettuce/lettuce_stage_3" }, 
+			
+			"turnip_crop_0": { "textures": "textures/blocks/crops/turnip/turnip_stage_0" },
+			"turnip_crop_1": { "textures": "textures/blocks/crops/turnip/turnip_stage_1" },
+			"turnip_crop_2": { "textures": "textures/blocks/crops/turnip/turnip_stage_2" },   
+			"turnip_crop_3": { "textures": "textures/blocks/crops/turnip/turnip_stage_3" }, 
+			
+			"lemon_crop_0": { "textures": "textures/blocks/crops/lemon/lemon_stage_0" },
+			"lemon_crop_1": { "textures": "textures/blocks/crops/lemon/lemon_stage_1" },
+			"lemon_crop_2": { "textures": "textures/blocks/crops/lemon/lemon_stage_2" },   
+			"lemon_crop_3": { "textures": "textures/blocks/crops/lemon/lemon_stage_3" }, 
+			
+			"tea_crop_0": { "textures": "textures/blocks/crops/tea/tea_stage_0" },
+			"tea_crop_1": { "textures": "textures/blocks/crops/tea/tea_stage_1" },
+			"tea_crop_2": { "textures": "textures/blocks/crops/tea/tea_stage_2" },   
+			"tea_crop_3": { "textures": "textures/blocks/crops/tea/tea_stage_3" }, 
+			
+			"mango_crop_0": { "textures": "textures/blocks/crops/mango/mango_stage_0" },
+			"mango_crop_1": { "textures": "textures/blocks/crops/mango/mango_stage_1" },
+			"mango_crop_2": { "textures": "textures/blocks/crops/mango/mango_stage_2" },   
+			"mango_crop_3": { "textures": "textures/blocks/crops/mango/mango_stage_3" }, 
+			
+			"peach_crop_0": { "textures": "textures/blocks/crops/peach/peach_stage_0" },
+			"peach_crop_1": { "textures": "textures/blocks/crops/peach/peach_stage_1" },
+			"peach_crop_2": { "textures": "textures/blocks/crops/peach/peach_stage_2" },   
+			"peach_crop_3": { "textures": "textures/blocks/crops/peach/peach_stage_3" }, 
+			
+			"orange_crop_0": { "textures": "textures/blocks/crops/orange/orange_stage_0" },
+			"orange_crop_1": { "textures": "textures/blocks/crops/orange/orange_stage_1" },
+			"orange_crop_2": { "textures": "textures/blocks/crops/orange/orange_stage_2" },   
+			"orange_crop_3": { "textures": "textures/blocks/crops/orange/orange_stage_3" }, 
+			
+			"cherry_crop_0": { "textures": "textures/blocks/crops/cherry/cherry_stage_0" },
+			"cherry_crop_1": { "textures": "textures/blocks/crops/cherry/cherry_stage_1" },
+			"cherry_crop_2": { "textures": "textures/blocks/crops/cherry/cherry_stage_2" },   
+			"cherry_crop_3": { "textures": "textures/blocks/crops/cherry/cherry_stage_3" }, 
+			
+			"soulfruit_crop_0": { "textures": "textures/blocks/crops/soulfruit/soulfruit_stage_0" },
+			"soulfruit_crop_1": { "textures": "textures/blocks/crops/soulfruit/soulfruit_stage_1" },
+			"soulfruit_crop_2": { "textures": "textures/blocks/crops/soulfruit/soulfruit_stage_2" },   
+			"soulfruit_crop_3": { "textures": "textures/blocks/crops/soulfruit/soulfruit_stage_3" },
+			
+			"coconut_crop_0": { "textures": "textures/blocks/crops/coconut/coconut_stage_0" },
+			"coconut_crop_1": { "textures": "textures/blocks/crops/coconut/coconut_stage_1" },
+			"coconut_crop_2": { "textures": "textures/blocks/crops/coconut/coconut_stage_2" },   
+			"coconut_crop_3": { "textures": "textures/blocks/crops/coconut/coconut_stage_3" }, 
+			
+			"blueberries_crop_0": { "textures": "textures/blocks/crops/blueberrie/blueberrie_stage_0" },
+			"blueberries_crop_1": { "textures": "textures/blocks/crops/blueberrie/blueberrie_stage_1" },
+			"blueberries_crop_2": { "textures": "textures/blocks/crops/blueberrie/blueberrie_stage_2" },   
+			"blueberries_crop_3": { "textures": "textures/blocks/crops/blueberrie/blueberrie_stage_3" }, 
+						
+			"netherberries_crop_0": { "textures": "textures/blocks/crops/netherberrie/netherberrie_stage_0" },
+			"netherberries_crop_1": { "textures": "textures/blocks/crops/netherberrie/netherberrie_stage_1" },
+			"netherberries_crop_2": { "textures": "textures/blocks/crops/netherberrie/netherberrie_stage_2" },   
+			"netherberries_crop_3": { "textures": "textures/blocks/crops/netherberrie/netherberrie_stage_3" }, 
+			
+			"lavalilly_crop_0": { "textures": "textures/blocks/crops/lavalilly/lavalilly_stage_0" },
+			"lavalilly_crop_1": { "textures": "textures/blocks/crops/lavalilly/lavalilly_stage_1" },
+			"lavalilly_crop_2": { "textures": "textures/blocks/crops/lavalilly/lavalilly_stage_2" },   
+			"lavalilly_crop_3": { "textures": "textures/blocks/crops/lavalilly/lavalilly_stage_3" }, 
+			
+			"strawberries_crop_0": { "textures": "textures/blocks/crops/strawberrie/strawberrie_stage_0" },
+			"strawberries_crop_1": { "textures": "textures/blocks/crops/strawberrie/strawberrie_stage_1" },
+			"strawberries_crop_2": { "textures": "textures/blocks/crops/strawberrie/strawberrie_stage_2" },   
+			"strawberries_crop_3": { "textures": "textures/blocks/crops/strawberrie/strawberrie_stage_3" },
+			
+			"blackberries_crop_0": { "textures": "textures/blocks/crops/blackberrie/blackberrie_stage_0" },
+			"blackberries_crop_1": { "textures": "textures/blocks/crops/blackberrie/blackberrie_stage_1" },
+			"blackberries_crop_2": { "textures": "textures/blocks/crops/blackberrie/blackberrie_stage_2" },   
+			"blackberries_crop_3": { "textures": "textures/blocks/crops/blackberrie/blackberrie_stage_3" }, 
+			
+			"marsh_crop_0": { "textures": "textures/blocks/crops/marsh/marsh_stage_0" },
+			"marsh_crop_1": { "textures": "textures/blocks/crops/marsh/marsh_stage_1" },
+			"marsh_crop_2": { "textures": "textures/blocks/crops/marsh/marsh_stage_2" },   
+			"marsh_crop_3": { "textures": "textures/blocks/crops/marsh/marsh_stage_3" }, 
+			
+			"grape_crop_0": { "textures": "textures/blocks/crops/grape/grape_stage_0" },
+			"grape_crop_1": { "textures": "textures/blocks/crops/grape/grape_stage_1" },
+			"grape_crop_2": { "textures": "textures/blocks/crops/grape/grape_stage_2" },   
+			"grape_crop_3": { "textures": "textures/blocks/crops/grape/grape_stage_3" }, 
+			
+			"corn_crop_0": { "textures": "textures/blocks/crops/corn/corn_stage_0" },
+			"corn_crop_1": { "textures": "textures/blocks/crops/corn/corn_stage_1" },
+			"corn_crop_2": { "textures": "textures/blocks/crops/corn/corn_stage_2" },   
+			"corn_crop_3": { "textures": "textures/blocks/crops/corn/corn_stage_3" },
+			
+			"oat_crop_0": { "textures": "textures/blocks/crops/oat/oat_stage_0" },
+			"oat_crop_1": { "textures": "textures/blocks/crops/oat/oat_stage_1" },
+			"oat_crop_2": { "textures": "textures/blocks/crops/oat/oat_stage_2" },   
+			"oat_crop_3": { "textures": "textures/blocks/crops/oat/oat_stage_3" }, 
+
+			"beans_crop_0": { "textures": "textures/blocks/crops/beans/beans_stage_0" },
+			"beans_crop_1": { "textures": "textures/blocks/crops/beans/beans_stage_1" },
+			"beans_crop_2": { "textures": "textures/blocks/crops/beans/beans_stage_2" },   
+			"beans_crop_3": { "textures": "textures/blocks/crops/beans/beans_stage_3" }, 
+
+			"canola_crop_0": { "textures": "textures/blocks/crops/canola/canola_stage_0" },
+			"canola_crop_1": { "textures": "textures/blocks/crops/canola/canola_stage_1" },
+			"canola_crop_2": { "textures": "textures/blocks/crops/canola/canola_stage_2" },   
+			"canola_crop_3": { "textures": "textures/blocks/crops/canola/canola_stage_3" }, 
+
+			"sorghum_crop_0": { "textures": "textures/blocks/crops/sorghum/sorghum_stage_0" },
+			"sorghum_crop_1": { "textures": "textures/blocks/crops/sorghum/sorghum_stage_1" },
+			"sorghum_crop_2": { "textures": "textures/blocks/crops/sorghum/sorghum_stage_2" },   
+			"sorghum_crop_3": { "textures": "textures/blocks/crops/sorghum/sorghum_stage_3" }, 
+
+			"vanilla_crop_0": { "textures": "textures/blocks/crops/vanilla/vanilla_stage_0" },
+			"vanilla_crop_1": { "textures": "textures/blocks/crops/vanilla/vanilla_stage_1" },
+			"vanilla_crop_2": { "textures": "textures/blocks/crops/vanilla/vanilla_stage_2" },   
+			"vanilla_crop_3": { "textures": "textures/blocks/crops/vanilla/vanilla_stage_3" }, 
+
+			"jalapeno_crop_0": { "textures": "textures/blocks/crops/jalapeno/jalapeno_stage_0" },
+			"jalapeno_crop_1": { "textures": "textures/blocks/crops/jalapeno/jalapeno_stage_1" },
+			"jalapeno_crop_2": { "textures": "textures/blocks/crops/jalapeno/jalapeno_stage_2" },   
+			"jalapeno_crop_3": { "textures": "textures/blocks/crops/jalapeno/jalapeno_stage_3" }, 
+
+			"bananapepper_crop_0": { "textures": "textures/blocks/crops/bananapepper/bananapepper_stage_0" },
+			"bananapepper_crop_1": { "textures": "textures/blocks/crops/bananapepper/bananapepper_stage_1" },
+			"bananapepper_crop_2": { "textures": "textures/blocks/crops/bananapepper/bananapepper_stage_2" },   
+			"bananapepper_crop_3": { "textures": "textures/blocks/crops/bananapepper/bananapepper_stage_3" }, 
+
+			"ghostpepper_crop_0": { "textures": "textures/blocks/crops/ghostpepper/ghostpepper_stage_0" },
+			"ghostpepper_crop_1": { "textures": "textures/blocks/crops/ghostpepper/ghostpepper_stage_1" },
+			"ghostpepper_crop_2": { "textures": "textures/blocks/crops/ghostpepper/ghostpepper_stage_2" },   
+			"ghostpepper_crop_3": { "textures": "textures/blocks/crops/ghostpepper/ghostpepper_stage_3" }, 
+
+			"habanero_crop_0": { "textures": "textures/blocks/crops/habanero/habanero_stage_0" },
+			"habanero_crop_1": { "textures": "textures/blocks/crops/habanero/habanero_stage_1" },
+			"habanero_crop_2": { "textures": "textures/blocks/crops/habanero/habanero_stage_2" },   
+			"habanero_crop_3": { "textures": "textures/blocks/crops/habanero/habanero_stage_3" }, 
+
+			"barley_crop_0": { "textures": "textures/blocks/crops/barley/barley_stage_0" },
+			"barley_crop_1": { "textures": "textures/blocks/crops/barley/barley_stage_1" },
+			"barley_crop_2": { "textures": "textures/blocks/crops/barley/barley_stage_2" },   
+			"barley_crop_3": { "textures": "textures/blocks/crops/barley/barley_stage_3" }, 
+
+			"ginger_crop_0": { "textures": "textures/blocks/crops/ginger/ginger_stage_0" },
+			"ginger_crop_1": { "textures": "textures/blocks/crops/ginger/ginger_stage_1" },
+			"ginger_crop_2": { "textures": "textures/blocks/crops/ginger/ginger_stage_2" },   
+			"ginger_crop_3": { "textures": "textures/blocks/crops/ginger/ginger_stage_3" }, 
+
+			"tomato_crop_0": { "textures": "textures/blocks/crops/tomato/tomato_stage_0" },
+			"tomato_crop_1": { "textures": "textures/blocks/crops/tomato/tomato_stage_1" },
+			"tomato_crop_2": { "textures": "textures/blocks/crops/tomato/tomato_stage_2" },   
+			"tomato_crop_3": { "textures": "textures/blocks/crops/tomato/tomato_stage_3" }, 
+
+			"sugerbeet_crop_0": { "textures": "textures/blocks/crops/sugerbeet/sugerbeet_stage_0" },
+			"sugerbeet_crop_1": { "textures": "textures/blocks/crops/sugerbeet/sugerbeet_stage_1" },
+			"sugerbeet_crop_2": { "textures": "textures/blocks/crops/sugerbeet/sugerbeet_stage_2" },   
+			"sugerbeet_crop_3": { "textures": "textures/blocks/crops/sugerbeet/sugerbeet_stage_3" }, 
+
+			"onion_crop_0": { "textures": "textures/blocks/crops/onion/onion_stage_0" },
+			"onion_crop_1": { "textures": "textures/blocks/crops/onion/onion_stage_1" },
+			"onion_crop_2": { "textures": "textures/blocks/crops/onion/onion_stage_2" },   
+			"onion_crop_3": { "textures": "textures/blocks/crops/onion/onion_stage_3" }, 
+
+			"rye_crop_0": { "textures": "textures/blocks/crops/rye/rye_stage_0" },
+			"rye_crop_1": { "textures": "textures/blocks/crops/rye/rye_stage_1" },
+			"rye_crop_2": { "textures": "textures/blocks/crops/rye/rye_stage_2" },   
+			"rye_crop_3": { "textures": "textures/blocks/crops/rye/rye_stage_3" }, 
+
+			"spelt_crop_0": { "textures": "textures/blocks/crops/spelt/spelt_stage_0" },
+			"spelt_crop_1": { "textures": "textures/blocks/crops/spelt/spelt_stage_1" },
+			"spelt_crop_2": { "textures": "textures/blocks/crops/spelt/spelt_stage_2" },   
+			"spelt_crop_3": { "textures": "textures/blocks/crops/spelt/spelt_stage_3" }, 
+
+			"soybean_crop_0": { "textures": "textures/blocks/crops/soybean/soybean_stage_0" },
+			"soybean_crop_1": { "textures": "textures/blocks/crops/soybean/soybean_stage_1" },
+			"soybean_crop_2": { "textures": "textures/blocks/crops/soybean/soybean_stage_2" },   
+			"soybean_crop_3": { "textures": "textures/blocks/crops/soybean/soybean_stage_3" }, 
+
+			"rice_crop_0": { "textures": "textures/blocks/crops/rice/rice_stage_0" },
+			"rice_crop_1": { "textures": "textures/blocks/crops/rice/rice_stage_1" },
+			"rice_crop_2": { "textures": "textures/blocks/crops/rice/rice_stage_2" },   
+			"rice_crop_3": { "textures": "textures/blocks/crops/rice/rice_stage_3" }, 
+
+			"cabbage_crop_0": { "textures": "textures/blocks/crops/cabbage/cabbage_stage_0" },
+			"cabbage_crop_1": { "textures": "textures/blocks/crops/cabbage/cabbage_stage_1" },
+			"cabbage_crop_2": { "textures": "textures/blocks/crops/cabbage/cabbage_stage_2" },   
+			"cabbage_crop_3": { "textures": "textures/blocks/crops/cabbage/cabbage_stage_3" }, 
+
+			"rhubarb_crop_0": { "textures": "textures/blocks/crops/rhubarb/rhubarb_stage_0" },
+			"rhubarb_crop_1": { "textures": "textures/blocks/crops/rhubarb/rhubarb_stage_1" },
+			"rhubarb_crop_2": { "textures": "textures/blocks/crops/rhubarb/rhubarb_stage_2" },   
+			"rhubarb_crop_3": { "textures": "textures/blocks/crops/rhubarb/rhubarb_stage_3" }, 
+
+			"broccoli_crop_0": { "textures": "textures/blocks/crops/broccoli/broccoli_stage_0" },
+			"broccoli_crop_1": { "textures": "textures/blocks/crops/broccoli/broccoli_stage_1" },
+			"broccoli_crop_2": { "textures": "textures/blocks/crops/broccoli/broccoli_stage_2" },   
+			"broccoli_crop_3": { "textures": "textures/blocks/crops/broccoli/broccoli_stage_3" }, 
+
+			"buckwheat_crop_0": { "textures": "textures/blocks/crops/buckwheat/buckwheat_stage_0" },
+			"buckwheat_crop_1": { "textures": "textures/blocks/crops/buckwheat/buckwheat_stage_1" },
+			"buckwheat_crop_2": { "textures": "textures/blocks/crops/buckwheat/buckwheat_stage_2" },   
+			"buckwheat_crop_3": { "textures": "textures/blocks/crops/buckwheat/buckwheat_stage_3" }, 
+
+			"pineapple_crop_0": { "textures": "textures/blocks/crops/pineapple/pineapple_stage_0" },
+			"pineapple_crop_1": { "textures": "textures/blocks/crops/pineapple/pineapple_stage_1" },
+			"pineapple_crop_2": { "textures": "textures/blocks/crops/pineapple/pineapple_stage_2" },   
+			"pineapple_crop_3": { "textures": "textures/blocks/crops/pineapple/pineapple_stage_3" }, 
+
+			
+
+
+		"grass_like_side": {
+			"textures": "textures/blocks/grass_like_side" //You can replace this with anything, just remember the name
+		}
+	}
+}

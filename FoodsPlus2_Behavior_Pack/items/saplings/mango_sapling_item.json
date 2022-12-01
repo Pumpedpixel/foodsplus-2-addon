@@ -1,0 +1,22 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "foodsplus2:mango_sapling_item",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "mango_sapling"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sapling"
+			},
+			"minecraft:block_placer": {
+				"block": "foodsplus2:mango_sapling",
+				"use_block_description": true
+			}
+		},
+		"events": {}
+	}
+}

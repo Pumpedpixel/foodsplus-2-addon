@@ -29,7 +29,3 @@ If you wish to import the addon files into the game instead of using the mcpedl 
 # **Credits:**
 **-Pumpedpixel** - Development, Textures
 
-**Special thanks to**
-
-**-Ksktube** - Translated the addon to jappanese
-
